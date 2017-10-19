@@ -65,9 +65,9 @@ The following artifacts are available
 -------------
 
 	<dependency>
-		<groupId>cloudreports</groupId>
-		<artifactId>cloudreports</artifactId>
-		<version>1.1</version>				
+		<groupId>de.mxro.process</groupId>
+		<artifactId>java-start-process</artifactId>
+		<version>0.1.1</version>				
 	</dependency>
 
 	<dependency>
