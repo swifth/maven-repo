@@ -10,7 +10,7 @@ To add this repository to your [Maven][maven] project, add the following lines t
 
 	<repositories>
 		<repository>
-			<id>al-snapshot-repository</id>
+			<id>swifth-snapshot-repository</id>
 			<url>https://github.com/swifth/maven-repo/raw/master/snapshots</url>
 			<snapshots>
 				<enabled>true</enabled>
@@ -18,7 +18,7 @@ To add this repository to your [Maven][maven] project, add the following lines t
 		</repository>
 
 		<repository>
-			<id>al-releases-repo</id>
+			<id>swifth-releases-repo</id>
 			<url>https://github.com/swifth/maven-repo/raw/master/releases</url>
 			<snapshots>
 				<enabled>false</enabled>
@@ -93,7 +93,7 @@ Deploy
 mvn deploy:deploy-file
 -Durl=file:PATH_TO_LOCAL/maven-repository/releases -Dfile=YOUR_FILE -DgroupId=GROUP_ID -DartifactId=ARTIFACT_ID -Dversion=VERSION -Dpackaging=PACKAGING
 ```
-			
+[maven on github]:https://github.com/alessandroleite/maven-repository/blob/master/README.md			
 [maven]:http://maven.apache.org/			
 [cloudreports]:https://github.com/thiagotts/CloudReports/
 [cloudreports-maven-plugin]:https://github.com/alessandroleite/cloudreports-maven-plugin
