@@ -1,10 +1,10 @@
 Maven repository
 ================
 
-Configuration
+Quick Configuration
 -------------
 
-To add this repository to your [Maven][maven] project, add the following lines to your `pom.xml` or `settings.xml` file.
+To add this repository to your [Maven][maven] project, add the following lines to your `pom.xml` file.
 
 ### Dependency repository
 
@@ -26,6 +26,27 @@ To add this repository to your [Maven][maven] project, add the following lines t
 		</repository>
 	</repositories>
 	
+
+The following artifacts are available
+-------------
+
+	<dependency>
+		<groupId>de.mxro.process</groupId>
+		<artifactId>java-start-process</artifactId>
+		<version>0.1.1</version>				
+	</dependency>
+
+	<dependency>
+		<groupId></groupId>
+		<artifactId></artifactId>
+		<version></version>	
+	</dependency>
+	
+	...
+
+
+## More advanced topics
+						
 ### Plugin repository
 
 	<pluginRepositories>
@@ -60,23 +81,6 @@ Configuration
 * [CloudSim](http://www.cloudbus.org/cloudsim/)
 * [Flanagan's Java Scientific Library](http://www.ee.ucl.ac.uk/~mflanaga/java/)
 
-
-The following artifacts are available
--------------
-
-	<dependency>
-		<groupId>de.mxro.process</groupId>
-		<artifactId>java-start-process</artifactId>
-		<version>0.1.1</version>				
-	</dependency>
-
-	<dependency>
-		<groupId>lshw</groupId>
-		<artifactId>xml-parser</artifactId>
-		<version>0.5</version>	
-	</dependency>
-
-						
 
 Maven Plugins
 -------------
