@@ -29,7 +29,7 @@ To add this repository to your [Maven][maven] project, add the following lines t
 
 The following artifacts are available
 -------------
-	<!-- usage: [https://github.com/swifth/java-start-process](https://github.com/swifth/java-start-process) -->
+	<!-- usage: [https://github.com/swifth/java-start-process][java-start-process] -->
 	<dependency>
 		<groupId>de.mxro.process</groupId>
 		<artifactId>java-start-process</artifactId>
@@ -103,3 +103,4 @@ mvn deploy:deploy-file
 [cloudreports-maven-plugin]:https://github.com/alessandroleite/cloudreports-maven-plugin
 [cloudsim]:http://www.cloudbus.org/cloudsim/
 [flanagan]:http://www.ee.ucl.ac.uk/~mflanaga/java/
+[java-start-process]:https://github.com/swifth/java-start-process
