@@ -29,14 +29,16 @@ To add this repository to your [Maven][maven] project, add the following lines t
 
 The following artifacts are available
 -------------
-	
+```
 	<dependency>
 		<groupId>de.mxro.process</groupId>
 		<artifactId>java-start-process</artifactId>
 		<version>0.1.1</version>				
 	</dependency>
-	usage: [https://github.com/swifth/java-start-process][java-start-process]
+```
+usage: [https://github.com/swifth/java-start-process][java-start-process]
 	
+```
 	<dependency>
 		<groupId></groupId>
 		<artifactId></artifactId>
@@ -44,7 +46,7 @@ The following artifacts are available
 	</dependency>
 	
 	...
-
+```
 
 ## More advanced topics
 						
