@@ -29,7 +29,7 @@ To add this repository to your [Maven][maven] project, add the following lines t
 
 The following artifacts are available
 -------------
-	<!-- usage: https://github.com/swifth/java-start-process -->
+	<!-- usage: [https://github.com/swifth/java-start-process](https://github.com/swifth/java-start-process) -->
 	<dependency>
 		<groupId>de.mxro.process</groupId>
 		<artifactId>java-start-process</artifactId>
